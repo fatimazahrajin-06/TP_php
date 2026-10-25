@@ -29,6 +29,7 @@ if (
         echo "Note Info : $noteInfo <br>";
         echo "Note Math : $noteMath <br>";
 
+        $fichier = fopen("data/notes.csv", "a");
     } else {
 
         echo "Erreur : les notes doivent être comprises entre "
@@ -41,4 +42,6 @@ if (
     echo "Erreur : tous les champs sont obligatoires.";
 
 }
+
+
 ?>

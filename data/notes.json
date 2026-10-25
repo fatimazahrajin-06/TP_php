@@ -1,0 +1,34 @@
+[
+    {
+        "nom": "Omar Benani",
+        "notes": {
+            "info": 15,
+            "math": 16
+        },
+        "moyenne": 15.5
+    },
+    {
+        "nom": "Sara Amrani",
+        "notes": {
+            "info": 18,
+            "math": 17
+        },
+        "moyenne": 17.5
+    },
+    {
+        "nom": "Youssef Idrissi",
+        "notes": {
+            "info": 12,
+            "math": 15
+        },
+        "moyenne": 13.5
+    },
+    {
+        "nom": "Fatimazahra Jinari",
+        "notes": {
+            "info": 16,
+            "math": 17
+        },
+        "moyenne": 16.5
+    }
+]

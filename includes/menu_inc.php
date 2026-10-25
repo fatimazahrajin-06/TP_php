@@ -12,6 +12,7 @@
     <a href="/TP_php/info.php">Info...</a>
     <a href="/TP_php/saisie.html">saisie...</a>
     <a href="/TP_php/liste.php">Liste</a>
+    <a href="/TP_php/export.php">Export...</a>
     <a href="/TP_php/includes/menu_inc.php">Menu</a>
     </body>
 </html>
