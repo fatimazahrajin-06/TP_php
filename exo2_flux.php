@@ -77,14 +77,14 @@ switch ($mois){
         }
     // si on oublie break la case suivant va executer aussi jousqua trouver break ou le cas default.
     echo "<h2>3. Boucles</h2>";
-    echo "<h2>Triangle de * </h2>";
+    echo "<h2>3.1 Triangle de * </h2>";
     for($i=0;$i<6;$i++){
         for ($j=0;$j<$i;$j++){
             echo "*";
         }
         echo "<br>";
     }
-echo "<h2>Les nobmbres de 0 a 20</h2>";
+echo "<h2>3.2 Les nobmbres de 0 a 20</h2>";
     $max = 20;
     $i=0;
     while ($i<=$max){
@@ -95,31 +95,33 @@ echo "<h2>Les nobmbres de 0 a 20</h2>";
         }
         $i+=2;
     }
-echo "<h2>Les nobmbres paire</h2>";
+echo "<h2>3.3 Les nobmbres paire</h2>";
     for($i=0;$i<=10;$i++){
         if ($i%2!=0){
             continue;
         }
         echo "$i<br>";
     }
-echo "<h2>question 4</h2>";
+echo "<h2>3.4 </h2>";
 $i=0;
 while(true){
     switch ($i){
         case 5:
-            echo "at$i";
+            echo "at$i<br>";
             break;
         case 10:
-            echo "At $i quitting";
+            echo "At $i quitting<br>";
             break 2;
     }
     $i++;
 }
+echo "<h2>3.5 reecriver la question 2 avec do-while</h2>";
+$j=0;
 do{
-    if($i==$max/2){
+    if($j==$max/2){
         echo "<h1>$i</h1>";
     }
-    echo "$i<br>";
-    $i+=2;
-}while ($i<=$max);
+    else echo "$j<br>";
+    $j+=2;
+}while ($j<=$max);
 ?>
